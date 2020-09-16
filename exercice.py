@@ -11,7 +11,9 @@ def remove_third_char(string: str) -> str:
     return string
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    return ""
+ 
+ string = string[:string.find(old_char)] + newchar +string[string.find(old_char)+1:]
+    return 
 
 
 def get_nb_char(string: str, char: str) -> int:
